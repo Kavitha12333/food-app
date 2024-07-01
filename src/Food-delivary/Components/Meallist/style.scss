@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.card{
+    width:250px;
+    height: 300px;
+    background-color:#eff;
+    position:relative;
+    img{
+        width:100%;
+    }
+    .info{
+       
+    
+         position: absolute;
+         top:75%;   
+        }
+
+}

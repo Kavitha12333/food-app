@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.footer_content_left{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    img{
+        width:120px;
+      
+    }
+}
+
+.social_icons{
+    img{
+        width:35px;
+        background-color: white;
+        
+    }
+
+}
+hr{
+    width:100%;
+    height:1px;
+    background-color:#eee;
+    border: none;
+}

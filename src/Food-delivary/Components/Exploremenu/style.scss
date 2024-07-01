@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.image_list{
+  cursor: pointer;
+    transition: 0.2s;
+    // overflow-x: scroll;
+    .explore_menu{ 
+      width:95px;
+    img{
+    border-radius: 50%;
+       width:100%;
+    }
+    p{
+        color:#747474;
+        cursor: pointer;
+    }
+    
+    .active{
+      border:3px solid tomato; 
+      padding:2px; 
+    }
+  }
+}

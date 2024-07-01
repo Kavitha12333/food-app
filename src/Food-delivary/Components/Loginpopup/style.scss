@@ -1,0 +1,42 @@
+.login_popup {
+    position: absolute;
+    bottom:150%;
+    top:150px;
+    z-index: 1;
+    width: 100%;
+
+    display: grid;
+ 
+    //  background-color: #00000090;
+
+    .login_popup_container {
+        place-self: center;
+        width: max(20vw, 330px);
+        color: #808080;
+        background-color:#e2e2e2;
+        border-radius: 8px;
+        animation: fadeIn 0.5s;
+
+        img {
+            width: 20px;
+            color:black;
+            cursor: pointer;
+        }
+
+        input {
+            height: 40px;
+            outline: none;
+            border: 1px solid #c9c9c9;
+        }
+
+        button {
+            border: none;
+            background-color: tomato;
+
+        }
+        span{
+            color: tomato;
+            cursor: pointer;
+        }
+    }
+}

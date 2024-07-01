@@ -1,0 +1,62 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+ 
+ .container  {
+    width:95%;
+    margin:auto;
+   //  box-shadow: 0 15px 20px  10px#ABB2B9;
+    h1{
+        border-bottom: 1px solid lavender;  
+
+    }
+    .text{
+      width:320px;
+    input{
+        width:100%;
+        padding:10px 15px;
+       
+    }
+   }
+    .btn{
+      width:320px;
+        display:flex;
+      //   justify-content: center;
+      //   align-items: end;
+    button{
+        width:100%;
+        background-color:palevioletred;
+        margin-left:0px 10px;
+        color:white;
+        letter-spacing: 1px;
+     
+     }
+    }
+    
+ }
+
+ .containr .row .col .block .gender label{
+    padding:10px 40px;
+ }
+ .gender{
+    margin: 5px 15px;
+    
+ }
+  h3{
+    margin-left: 15px;
+    text-transform: capitalize;
+    padding: 10px 0px;
+ }
+ .gender label{
+    padding-right: 200px;
+    text-transform: capitalize;
+ }
+
+  
+ 
+   
+   

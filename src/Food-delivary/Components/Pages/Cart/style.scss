@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.cart{
+  width:95%;
+  margin:auto;
+  .cart_items{
+    
+  .cart_title {
+   
+    display:flex;
+    flex:1;
+flex-wrap: wrap;
+
+
+  }
+  
+img{
+    width:45px;
+}
+hr{
+    height:1px;
+    background-color: #e2e2e2;
+}
+
+}
+  
+.cart_bottom{
+
+  gap:max(12vw,20px);
+
+  .cart_total{
+    flex:1;
+    gap:20px;
+ 
+  button{
+  
+    border:none;
+   width:max(15vw,200px)
+  }
+} 
+.cart_promocode{
+flex:1;
+p{
+  color:#555
+}
+.promocode_input{
+background-color: #eaeaea;
+input{
+  outline: none;
+  border:none;
+  background: transparent;
+}
+button{
+  width:max(10vw,150px);
+  background-color: black;
+  border:none;
+  color:white
+}
+}
+}
+
+
+}
+}

@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.fooditem{
+// width:100%;
+// margin:auto;
+border-radius: 15px;
+transition: 0.3s;
+animation:fadeIn 1s;
+box-shadow: 0px 0px 10px #00000015;
+    .image_container{
+        width:200px;
+        height:200px;
+        img{
+            position:relative;
+            width:100%;
+            border-radius: 15px;
+        }
+        .add{
+            width:20px;
+            position:absolute;
+            right:20px;
+            top:150px;
+            cursor:pointer ;
+            border-radius: 50%;
+        }
+        .food_item_counter{
+            position: absolute;
+            right:20px;
+            top:125px;
+            background-color: white;
+        } 
+    }
+.info{
+    width:80px;
+    img{
+        width:100%;
+    }
+}
+}
